@@ -1,0 +1,25 @@
+Algoritmo ejercicio_7
+	//Se tiene en memoria un vector A de longitud N, hacer
+	//un algoritmo que imprima todas las posiciones de los
+	//elementos de A que sean iguales a una X leída.
+	Definir i Como Entero
+	leer n
+	Dimension a[n]
+	i=1
+	Mientras i<=n
+		b= azar(9)
+		a(i)= b
+		Imprimir Sin Saltar a(i) " - "
+		i=i+1
+	FinMientras
+	Imprimir "."
+	i=1
+	leer x
+	Imprimir "Las posiciones de los elementos iguales a la X leida es: "
+	Mientras i<=n
+		si x= a(i)
+			Imprimir i 
+		FinSi
+		i=i+1
+	FinMientras
+FinAlgoritmo
