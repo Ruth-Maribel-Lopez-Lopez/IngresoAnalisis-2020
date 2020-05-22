@@ -1,0 +1,23 @@
+Algoritmo ejercicio_2
+	//Se tiene en memoria un vector A de 45 elementos. Hacer un algoritmo que
+	//permita imprimir las posiciones de los elementos iguales a 5.
+	Definir i Como Entero
+	Dimension a[45]
+	i=1
+	Mientras i<=45
+		b=azar(10)
+		a(i)= b
+		Imprimir Sin Saltar " - " a(i)
+		i=i+1
+	FinMientras
+	i=1
+	Imprimir "."
+	Imprimir "Son: "
+	Mientras i<=45
+		
+		si a(i)= 5
+			Imprimir (i) 
+		FinSi
+		i=i+1
+	FinMientras
+FinAlgoritmo
