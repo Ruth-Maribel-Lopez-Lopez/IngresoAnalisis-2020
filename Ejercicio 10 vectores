@@ -1,0 +1,35 @@
+Algoritmo ejercicio_10
+	//Hacer un algoritmo que permita contar los elementos
+	//del vector V que sean múltiplos de 3 y de 5. También
+	//se desea obtener el promedio de los elementos ubicados en
+	//posiciones impares.
+	Definir i Como Entero
+	leer n
+	Dimension v[n]
+	i=1
+	Mientras i<=n
+		b= azar(50)+1
+		v(i)= b
+		Imprimir Sin Saltar v(i) " - "
+		i=i+1
+	FinMientras
+	i=1
+	c1=0
+	simp=0
+	cimp=0
+	pimp=0
+	Imprimir "."
+	Mientras i<=n
+		si v(i) mod 3 =0 y v(i) mod 5=0 Entonces
+			c1=c1+1
+		FinSi
+		si i mod 2=1
+			simp= simp+v(i)
+			cimp=cimp+1
+			pimp=simp/cimp
+		FinSi
+		i=i+1
+	FinMientras
+	Imprimir "La cantidad de elementos multiplos de 3 y de 5 es: ", c1
+	Imprimir "El promedio de los elemento ubicados en las posiciones impares es: ", pimp
+FinAlgoritmo
