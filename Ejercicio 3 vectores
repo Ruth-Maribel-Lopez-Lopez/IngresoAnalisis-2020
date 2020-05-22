@@ -1,0 +1,25 @@
+Algoritmo Ejercicio_3
+	//Desarrollar un algoritmo que permita crear un vector V de 30 elementos y hallar el
+	//mayor elemento del vector.
+	Definir i Como Entero
+	Dimension v[30]
+	i=1
+	Mientras i<=30
+		a=azar(10)
+		v(i)= a
+		Imprimir sinsaltar " - ", v(i)
+		i=i+1
+	FinMientras
+	i=1
+	may= v(1)
+	Mientras i<=30
+		
+		si v(i)>may
+			may= v(i)
+		FinSi
+		
+		i=i+1
+	FinMientras
+	Imprimir "."
+	Imprimir "El mayor elemento es: " may
+FinAlgoritmo
