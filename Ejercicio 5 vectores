@@ -1,0 +1,28 @@
+Algoritmo ejercicio_5
+	//Desarrollar un algoritmo que permita crear un vector A
+	//de 60 elementos y realizar el promedio de los elementos impares.
+	Definir i Como Entero
+	Dimension v[6]
+	i=1
+	Mientras i<=6
+		a=azar(10)
+		v(i)= a
+		Imprimir sinsaltar "-", v(i)
+		i=i+1
+	FinMientras
+	i=1
+	sim=0
+	cimp=0
+	pim=0
+	Imprimir "."
+	
+	Mientras i<=6
+		si v(i) mod 2=1
+			sim= sim+v(i)
+			cimp= cimp+1
+			pim= sim/cimp
+		FinSi
+		i=i+1
+	FinMientras
+	Imprimir "El promedio de los elementos impares es: ", pim
+FinAlgoritmo
