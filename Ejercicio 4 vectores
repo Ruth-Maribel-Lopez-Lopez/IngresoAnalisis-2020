@@ -1,0 +1,22 @@
+Algoritmo ejercicio_4
+	//Desarrollar un algoritmo que permita crear un vector V de 55 elementos. Imprimir
+	//todos los elementos del vector que sean pares.
+	Definir i Como Entero
+	Dimension v[55]
+	i=1
+	Mientras i<=55
+		a=azar(10)
+		v(i)= a
+		Imprimir sinsaltar "-", v(i)
+		i=i+1
+	FinMientras
+	i=1
+	Imprimir "."
+	Imprimir "Los pares son: "
+	Mientras i<=55
+		si v(i) mod 2=0
+			Imprimir Sin Saltar " - " v(i) 
+		FinSi
+		i=i+1
+	FinMientras
+FinAlgoritmo
