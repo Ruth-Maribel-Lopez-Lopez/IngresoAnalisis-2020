@@ -1,0 +1,35 @@
+Algoritmo ejercicio_8
+	//Dado un vector de N elementos, hacer un algoritmo 
+	//que permita hallar el mayor y el menor elemento del vector
+	//con sus posiciones respectivas.
+	Definir i Como Entero
+	leer n
+	Dimension a[n]
+	i=1
+	Mientras i<=n
+		b= azar(9)
+		a(i)= b
+		Imprimir Sin Saltar a(i) " - "
+		i=i+1
+	FinMientras
+	may= a(1)
+	men= a(1)
+	posmay=0
+	posmen=0
+	i=1
+	Imprimir "."
+	Mientras i<=n
+		si a(i)>may
+			may= a(i)
+			posmay= i
+		FinSi
+		
+		si a(i)<men
+			men= a(i)
+			posmen= i
+		FinSi
+		i=i+1
+	FinMientras
+	Imprimir "El mayor es: ", may, " Su posicion es: ", posmay
+	Imprimir "El menor es: ", men, " Su posicion es: ", posmen
+FinAlgoritmo
