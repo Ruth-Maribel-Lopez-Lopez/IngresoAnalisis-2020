@@ -1,0 +1,18 @@
+Algoritmo ejercicio_6
+	//Crear un vector según la
+	//siguiente regla: Cargar 1 en
+	//(1), 2 en V (2), ..., N en V (N)
+	Definir i Como Entero
+	leer n
+	Dimension v[n]
+	i=1
+	Mientras i<=n
+		v(i)= i
+		i=i+1
+	FinMientras
+	i=1
+	Mientras i<=n
+	    Imprimir sinsaltar  v(i) " - "
+		i=i+1
+	FinMientras
+FinAlgoritmo
