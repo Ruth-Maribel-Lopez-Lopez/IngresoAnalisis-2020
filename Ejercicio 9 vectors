@@ -1,0 +1,39 @@
+Algoritmo ejercicio_9
+	//Leer un vector de N componentes y luego hallar la
+	//suma y el promedio de las componentes que están en los
+	//lugares pares y de las que se encuentran en posiciones impares.
+	Definir i Como Entero
+	leer n
+	Dimension a[n]
+	i=1
+	Mientras i<=n
+		b= azar(9)
+		a(i)= b
+		Imprimir Sin Saltar a(i) " - "
+		i=i+1
+	FinMientras
+	i=1
+	sp=0
+	cp=0
+	pp=0
+	sim=0
+	cim=0
+	pim=0
+	Imprimir "."
+	Mientras i<=n
+		si i mod 2=0
+			sp=sp+a(i)
+			cp= cp+1
+			pp= sp/cp
+		SiNo
+			sim= sim+a(i)
+			cim= cim+1
+			pim= sim/cim
+		FinSi
+		i=i+1
+	FinMientras
+	Imprimir "La suma de los que se encuentran en los lugares pares es: ", sp
+	Imprimir "El promedio de los que se encuentran en los lugares pares es: ", pp
+	Imprimir "La suma de los que se encuentran en los lugares impares es: ", sim
+	Imprimir "El promedio de los que se encuentran en los lugares impares es: ", pim
+FinAlgoritmo
