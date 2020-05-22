@@ -1,0 +1,18 @@
+Algoritmo ejercicio_1
+	// Desarrollar un algoritmo que permita crear un vector Vec de
+	// 10 elementos. Cargar 0 en todo
+	// el vector. Imprimir el vector.
+	Definir i Como Entero
+	Dimension vec[10]
+	i=1
+	Mientras i<=10
+		
+		vec(i)=0
+		i=i+1
+	FinMientras
+	i=1
+	Mientras i<=10
+		Imprimir sin saltar "-" vec(i) 
+		i=i+1
+	FinMientras
+FinAlgoritmo
